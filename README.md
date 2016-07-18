@@ -46,9 +46,11 @@ You will notice that there are comments inside the script.js file that provide i
 
 ####In order to make Rock, Paper, Scissors functional you will need to complete the three tasks below:
 
-###1) Clone this repo into your own Cloud9 account workspace
-1. Copy the "clone URL" from this repo
-2. In your Cloud9 dashboard click on the green "Create New Workspace" button and select "Clone from URL"
+###1) Fork this repo and then clone it into your own Cloud9 account workspace
+
+1. Fork this repo
+2. Copy the "clone URL" from your new repo
+3. In your Cloud9 dashboard click the "Create New Workspace" button and paste the clone URL in the "Clone from Git input field"
 
 Once the workspace has been processed, check to be sure it is up to date by running ` git status ` in the terminal. You should receive a messege telling you that your branch is up to date.   
 ![Imgur](http://i.imgur.com/RKdsduL.png)
@@ -62,11 +64,16 @@ To push to GitHub run the following commands in your terminal:
 `git push origin master`
 
 
-###2) index.html
-The HTML file in this repo is not fully complete as of right now. Follow the comments within the file before moving on to the script.js file.
+###2) Rock Paper Scissors in the console
+Before getting started with this project you must first create a functioning Rock, Paper, Scissors game in the console.
 
-###3) script.js
-Use the comments within the script.js file to help you complete the missing components of this game. Luckily, the former intern left very detailed comments that are easy to follow.
+In order to do this complete tasks 1 and 2 in the code. Follow the directions in the comments.
+
+###3) index.html
+Now that you have the logic behind this game working, go into the HTML file in this repo is not fully complete as of right now. Follow the directions in the comments.
+
+###4) User Choice Assignment
+Redfine the `userChoice` variable to none. Now use jQuery to assign a new value to userChoice depending on what the user clicks. 
 
 ###Bonus) 
 Your Manager has offered a stipend of $500 for each of the bonus requirements listed below: 
