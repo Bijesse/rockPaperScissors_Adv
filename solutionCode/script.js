@@ -27,7 +27,7 @@ function pickWinner(userChoice, computerChoice) {
           userChoice === "scissors"  && computerChoice === "paper"  ||
           userChoice === "paper"    && computerChoice === "rock"    ||
           userChoice === "rock" && computerChoice === "scissors" ) {
-              console.log('Computer Wins') ;
+              console.log('User Wins') ;
     } else if ( computerChoice === "scissors" && userChoice === "paper" ||
           computerChoice === "paper"   && userChoice === "rock"   ||
           computerChoice === "rock"    && userChoice === "scissors") {
